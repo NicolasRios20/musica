@@ -1,0 +1,313 @@
+body{
+    background-color: white;
+}
+
+main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+
+header{
+    height: 500px;
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;
+}
+
+.titulo_principal{
+  text-align: center;
+  color: white; 
+  padding: 200px; 
+  font-size: 100px;
+}
+
+.parte1{
+    width: 600px;
+    float: left;
+}
+
+.titulo1{
+    margin: 10px;
+    width: 40%;
+    margin: 90px 90px 0 150px;
+}
+
+.parrafo1{
+    text-align: justify;
+    margin: 0  150px 5%;
+}
+
+.img2s{
+    float: right;
+    
+}
+
+.img2{
+    width: 300px;
+    margin-right: 124px;
+}
+
+.parte2{
+    width: 600px;
+    float: right;
+}
+
+.img3s{
+    float: left;
+    width: 32%;
+}
+
+.img3{
+    width: 300px;
+    margin-left: 135px;
+}
+
+
+.titulo2{
+    margin: 10px;
+    width: 40%;
+    margin: 90px 90px 0 150px;
+}
+
+.parrafo2{
+    text-align: justify;
+    margin: 0 150px 5%;
+}
+
+.parte3{
+    height: 400px;
+    background: url(../images/john-raptis.png);
+    background-size: cover;
+}
+
+.contenido{
+    float: right;
+    width: 40%;
+}
+
+.titulo3{
+    margin-top: 90px;
+    color: white;
+}
+
+.parrafo3{
+    text-align: justify;
+    color: white;
+    margin-right: 150px;
+}
+
+.termino{
+    background-color: #fd2e5c;
+    height: 180px;
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+    
+ }
+ td{
+    width: 10%;
+    text-align: left;
+    vertical-align: top;
+    color: white;
+ }
+
+ .filaprin{
+    margin: 15px;
+ }
+
+.boton1{
+    border-radius: 40px;
+    background-color: #fd2e5c;
+    outline: none;
+    padding: 10px 20px;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+.boton2{
+    border-radius: 40px;
+    background-color: #fd2e5c;
+    outline: none;
+    padding: 10px 20px;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+.boton3{
+    border-radius: 40px;
+    background-color: #fd2e5c;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  #fd2e5c;
+}
+hr{
+    width: 940px;
+    color: white;
+}
+
+.p1{
+    float: left;
+    color: white;
+    margin-left: 25%;
+    
+}
+
+@media (max-width: 1200px) {
+    body{
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    p{
+        font-size: 100%;
+        width: 90%;
+        margin:0;
+    }
+
+    h2{
+        width: 90%;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        background-position: 50%;
+        font-size: 0%;
+    }
+
+    .parte1{
+        width: 100%;
+    }
+    
+    .titulo1{
+        margin-left: 116px; 
+    }
+
+    .parrafo1{
+        margin-left: 24px;
+    }
+
+    .titulo2{
+        margin-left: 116px; 
+    }
+    .parrafo2{
+        margin-left: 24px;
+    }
+
+    .contenido{
+        width: 100%;
+    }
+
+    .titulo3{
+        margin-left: 60px; 
+    }
+    .parrafo3{
+        margin-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    .boton3{
+        margin-left: 160px;
+    }
+
+    .parte2{
+        width: 100%;
+    }
+
+    .titulo_principal{
+        padding: 0;
+        margin: auto;
+    }
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    .img3s{
+        margin: 0;
+        width: 100%;
+    }
+
+    .img2s{
+        margin: 0;
+        width: 50%;
+    }
+
+    .img2{
+        margin: 0;
+        margin-left: -11%;
+    }
+
+    .img3{
+        margin-left: 92px;
+    }
+
+    .boton2{
+        margin: 0,0,5%,0;
+    }
+    
+    .parte3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    table{
+        width: 80%;
+        margin-left: 70px;
+        padding: 10px;
+    }
+
+    tr{
+        margin: 0;
+        padding: 0;
+    }
+
+    td{
+        margin: 0;
+        padding: 0;
+    }
+
+    .p1{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .termino{
+        height: 250px;
+    }
+}
